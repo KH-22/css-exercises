@@ -1,7 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  border: 2px solid black;
+  
 }
+
+.left-links{
+  display: flex;
+  margin-right: auto;
+  align-items: center;
+  flex: 1;
+  border: 2px solid black;
+}
+
+.right-links{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  flex: 1;
+  border: 2px solid black;
+}
+
+.left-links ul{
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+  gap: 1em;
+  border: 2px solid black;
+}
+
+.right-links ul {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  gap: 1em;
+  border: 2px solid black;
+}
+
 
 .logo {
   font-size: 48px;
@@ -9,6 +52,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: auto;
 }
 
 ul {
